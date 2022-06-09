@@ -1,3 +1,6 @@
+# Vscode的工作区文件
+*.code-workspace
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
