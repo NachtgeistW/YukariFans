@@ -6,16 +6,17 @@ plugins:
       lang:
         - en
         - ja
+  - pico-8
   - awesome-pages #通过.pages文件来配置navigation
-  - section-index #让nav的标题也可附加一个md文档
+  # - section-index #让nav的标题也可附加一个md文档
   - autolinks #让站内链接不用写绝对路径,直接写xxx就行了。(如果有重名文件可能有问题)
   - alias #允许给.md添加别名(用于引用)eg. ```alias: \r\n  name:a\r\ntext: this is a```
   # 其它md中[[别名]]指向该.md
   - blogging: #生成博客页
       dirs: # The directories to be included
-        - Voiceroid
-      features: # 包含页面标签,需要手动加
-        tags: {}
+        - Help
+      features: 
+        tags: {} # 包含页面标签,标签需要手动加到md文档顶部元数据
       theme:
         name: card
       meta_time_format: '%Y-%m-%d %H:%M:%S' #解析格式, 会自动找到元数据time或date上的字符串
@@ -70,14 +71,14 @@ theme:
     text: Noto Serif Simplified Chinese
   language: zh
   features:
-    # - navigation.instant #即时加载，点击内部链接后只加载改变的部分，与blog插件冲突
     - navigation.tracking #锚点跟踪
     - navigation.expand #侧栏自动展开
-    # - navigation.indexes #章节名处现在也可以加上md文档了(与awesome-pages插件冲突,用section-index插件替换)
     - navigation.top #返回顶部按钮
     - navigation.tabs #顶部导航
     - search.highlight #进入搜索的文章后使搜索文本高亮
     - header.autohide #滑下后自动隐藏标题
+    # - navigation.instant #即时加载，点击内部链接后只加载改变的部分，与blog插件冲突
+    # - navigation.indexes #章节名处现在也可以加上md文档了(与awesome-pages插件冲突,用section-index插件替换)
 extra:
   social:
     - icon: fontawesome/brands/bilibili
@@ -85,11 +86,11 @@ extra:
       name: 我的B站空间
     - icon: fontawesome/brands/github
       link: https://gitee.com/guanyujie
-      name: My Github
+      name: My Gitee
     - icon: octicons/mail-24
       link: mailto:<pipeyume@qq.com>
       name: 我的邮箱pipeyume@qq.com
   generator: false
 
 site_name: YukariFans
-site_url: ""
+site_url: "https://guanyujie.gitee.io/yukarifans/"

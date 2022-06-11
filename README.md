@@ -16,7 +16,7 @@ Gitee 是 OSCHINA 推出的基于 Git 的代码托管平台（同时支持 SVN�
 #### 软件架构
 
 使用MkDocs方便地将多个Markdown文件生成静态网页。
-使用的皮肤是MkDocs-Material, [英文参考文档](https://squidfunk.github.io/mkdocs-material/) (中文的太旧了)。
+使用的主题是MkDocs-Material, [英文参考文档](https://squidfunk.github.io/mkdocs-material/) (中文的太旧了)。
 
 ##### 使用的插件的作用说明
 
