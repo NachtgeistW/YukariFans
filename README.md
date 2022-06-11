@@ -6,21 +6,23 @@
 Gitee 是 OSCHINA 推出的基于 Git 的代码托管平台（同时支持 SVN）。专为开发者提供稳定、高效、安全的云端软件开发协作平台
 无论是个人、团队、或是企业，都能够用 Gitee 实现代码托管、项目管理、协作开发。企业项目请看 [https://gitee.com/enterprises](https://gitee.com/enterprises) -->
 泛VOICEROID工具导航站
-<p style="font-size:0.5em;line-height:0">因为是节雨竹的仓库所以就不写俏皮话了</p>
-<br>
+
+~~因为是节雨竹的仓库所以就不写俏皮话了~~
+
+---
 
 #### 软件架构
 
 使用MkDocs方便地生成静态网页
 
-<br>
+---
 
 #### 安装教程
 
 1.  安装Python3
-2.  使用<code>pip install -r requirements</code>安装Python依赖库
+2.  使用<code>pip install -r requirements.txt</code>安装Python依赖库
 
-<br>
+---
 
 #### 使用说明
 
