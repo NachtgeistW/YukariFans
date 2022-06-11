@@ -43,13 +43,13 @@ Gitee 是 OSCHINA 推出的基于 Git 的代码托管平台（同时支持 SVN�
 
 ##### 如何在本地查看页面
 
-1.  进入<code>YukariFans/YukariFans</code>目录（<code>mkdocs.yml</code>同级目录）
+1.  进入<code>YukariFans_Mkdocs/YukariFans</code>目录（<code>mkdocs.yml</code>同级目录）
 2.  使用<code>mkdocs serve</code>启动本地服务器
 3.  通过浏览器访问给出的地址（默认<code>http://127.0.0.1:8000/</code>）
 
 ##### 如何将页面上传
 
-1.  进入<code>YukariFans/YukariFans</code>目录（<code>mkdocs.yml</code>同级目录）
+1.  进入<code>YukariFans_Mkdocs/YukariFans</code>目录（<code>mkdocs.yml</code>同级目录）
 2.  使用`mkdocs gh-deploy
 `来上传文档到gitee-page中
 
