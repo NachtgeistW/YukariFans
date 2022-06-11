@@ -29,6 +29,8 @@ Gitee 是 OSCHINA 推出的基于 Git 的代码托管平台（同时支持 SVN�
 1.  安装Python3.9
 2.  使用<code>pip install -r requirements.txt</code>安装Python依赖库
 
+> 其中 jieba库 是为了让搜索功能支持中文的进行分词的库，具体使用参考https://zhuanlan.zhihu.com/p/411854801
+
 
 * 如果电脑中已经安装了不同版本的Python, 或想方便地从零开始安装Python, 推荐用Miniconda/Conda进行Python版本管理。
   * 参考[Miniconda安装及使用--小白上路](https://zhuanlan.zhihu.com/p/133494097)
