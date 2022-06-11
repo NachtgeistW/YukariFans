@@ -6,7 +6,6 @@ plugins:
       lang:
         - en
         - ja
-  - pico-8 #嵌入pico-8的小游戏 eg.{{ pico-8: 46052 }}
   - awesome-pages #通过.pages文件来配置navigation
   - section-index #让nav的标题也可附加一个md文档
   - autolinks #让站内链接不用写绝对路径,直接写xxx就行了。(如果有重名文件可能有问题)

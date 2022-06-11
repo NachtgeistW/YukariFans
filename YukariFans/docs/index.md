@@ -16,5 +16,4 @@ tags:
 
 # Welcome to YukariFans
 <center>
-![Image title](https://s2.loli.net/2022/05/21/CZ6yLpbuTJG3WSm.png){loading=lazy}
-{{ pico-8: 85303 }}</center>
+![Image title](https://s2.loli.net/2022/05/21/CZ6yLpbuTJG3WSm.png){loading=lazy}</center>

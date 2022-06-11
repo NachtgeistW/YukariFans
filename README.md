@@ -9,26 +9,47 @@ Gitee 是 OSCHINA 推出的基于 Git 的代码托管平台（同时支持 SVN�
 
 ~~因为是节雨竹的仓库所以就不写俏皮话了~~
 
+~~这种事情随便啦~~
+
 ---
 
 #### 软件架构
 
-使用MkDocs方便地生成静态网页
+使用MkDocs方便地将多个Markdown文件生成静态网页。
+使用的皮肤是MkDocs-Material, [英文参考文档](https://squidfunk.github.io/mkdocs-material/) (中文的太旧了)。
+
+##### 使用的插件的作用说明
+
+插件的作用全写在mkdocs.yml配置文件里了
 
 ---
 
 #### 安装教程
 
-1.  安装Python3
+1.  安装Python3.9
 2.  使用<code>pip install -r requirements.txt</code>安装Python依赖库
+
+
+* 如果电脑中已经安装了不同版本的Python, 或想方便地从零开始安装Python, 推荐用Miniconda/Conda进行Python版本管理。
+  * 参考[Miniconda安装及使用--小白上路](https://zhuanlan.zhihu.com/p/133494097)
+  * 创建需要的环境：`conda create -n name_of_this_environment python=3.9.5 `
+  * [Miniconda的常用指令](https://zhuanlan.zhihu.com/p/386906874)
 
 ---
 
 #### 使用说明
 
+##### 如何在本地查看页面
+
 1.  进入<code>YukariFans/YukariFans</code>目录（<code>mkdocs.yml</code>同级目录）
 2.  使用<code>mkdocs serve</code>启动本地服务器
 3.  通过浏览器访问给出的地址（默认<code>http://127.0.0.1:8000/</code>）
+
+##### 如何将页面上传
+
+1.  进入<code>YukariFans/YukariFans</code>目录（<code>mkdocs.yml</code>同级目录）
+2.  使用`mkdocs gh-deploy
+`来上传文档到gitee-page中
 
 <!-- #### 参与贡献
 
