@@ -1,36 +1,41 @@
 # YukariFans_MkDocs
 
-#### Description
-{**When you're done, you can delete the content in this README and update the file with details for others getting started with your repository**}
+## Wha's this?
 
-#### Software Architecture
-Software architecture description
+Anything related to VOICEROID!
 
-#### Installation
+<br/>
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+## Structure
 
-#### Instructions
+Generate static website from Markdown files with MkDocs.
+Theme used: MkDocs-Material, [doc](https://squidfunk.github.io/mkdocs-material/).
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+#### Plugins 
 
-#### Contribution
+See the config file (mkdocs.yml) for a description of the plugins' functionalities.
 
-1.  Fork the repository
-2.  Create Feat_xxx branch
-3.  Commit your code
-4.  Create Pull Request
+<br/>
 
+## Installation
 
-#### Gitee Feature
+1.  Install Python 3.9
+2.  Install required modules with <code>pip install -r requirements.txt</code>
 
-1.  You can use Readme\_XXX.md to support different languages, such as Readme\_en.md, Readme\_zh.md
-2.  Gitee blog [blog.gitee.com](https://blog.gitee.com)
-3.  Explore open source project [https://gitee.com/explore](https://gitee.com/explore)
-4.  The most valuable open source project [GVP](https://gitee.com/gvp)
-5.  The manual of Gitee [https://gitee.com/help](https://gitee.com/help)
-6.  The most popular members  [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+* If a Python environment already exists, or if you want to start anew, you can use Miniconda/Conda for Python environment management
+  * To create a new environment: `conda create -n name_of_this_environment python=3.9.5 `
+
+<br/>
+
+## Usage
+
+#### View pages locally
+
+1.  Enter directory <code>YukariFans_Mkdocs/YukariFans</code> (where <code>mkdocs.yml</code> is located)
+2.  Start local server with <code>mkdocs serve</code>
+3.  Access the address (default: <code>http://127.0.0.1:8000/</code>) with any browser 
+
+#### Upload webpages
+
+1.  Enter <code>YukariFans_Mkdocs/YukariFans</code>
+2.  Run `mkdocs gh-deploy` to upload pages to gitee-page

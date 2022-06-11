@@ -7,11 +7,11 @@ Gitee 是 OSCHINA 推出的基于 Git 的代码托管平台（同时支持 SVN�
 无论是个人、团队、或是企业，都能够用 Gitee 实现代码托管、项目管理、协作开发。企业项目请看 [https://gitee.com/enterprises](https://gitee.com/enterprises) -->
 泛VOICEROID工具导航站
 
-~~因为是节雨竹的仓库所以就不写俏皮话了~~
+~~因为是节雨竹的仓库所以就不写俏皮话了&emsp;--DE~~
 
 ~~这种事情随便啦~~
 
----
+<br/>
 
 #### 软件架构
 
@@ -22,7 +22,7 @@ Gitee 是 OSCHINA 推出的基于 Git 的代码托管平台（同时支持 SVN�
 
 插件的作用全写在mkdocs.yml配置文件里了
 
----
+<br/>
 
 #### 安装教程
 
@@ -37,7 +37,8 @@ Gitee 是 OSCHINA 推出的基于 Git 的代码托管平台（同时支持 SVN�
   * 创建需要的环境：`conda create -n name_of_this_environment python=3.9.5 `
   * [Miniconda的常用指令](https://zhuanlan.zhihu.com/p/386906874)
 
----
+
+<br/>
 
 #### 使用说明
 
