@@ -51,7 +51,7 @@ tags:
 ```python
 from psd_tools import PSDImage
 
-filename = "./example.psd"
+filename = "example.psd"
 psd = PSDImage.open(filename, encoding="Shift-JIS")
 psd.save(f'GBK_{filename}', encoding="GBK")
 ```
@@ -69,7 +69,7 @@ def writeBlock(group):
         if layer.is_group():
             writeBlock(layer)
 
-filename = "./example.psd"
+filename = "example.psd"
 psd = PSDImage.open(filename, encoding="Shift-JIS")
 writeBlock(psd)
 psd.save(f'Unicode_{filename}', encoding="Shift-JIS")
