@@ -2,8 +2,6 @@
 description: 修复古早PSD文件图层名乱码问题的方法
 time: "2022-6-12 09:16:00"
 alias: Photoshop修复
-hide:
-  - tags
 tags:
   - Photoshop
   - psd
@@ -29,9 +27,20 @@ tags:
 
 ## **2. “怎么办呢？”**
 
-#### 在Photoshop中使用JavaScript
+#### 在Photoshop中使用Jsx脚本
 
-!!! todo "施工中..."
+[下载链接](https://share.weiyun.com/eGHLj6uj)
+
+!!! note "原理"
+
+    该方法的原理就是单纯地更改图层名。源代码都在脚本中，没有加密。
+
+??? example "如何使用"
+
+    * 保证PS_ShiftjisToUtf8.jsx 和 PS_ShiftjisToUtf8 文件夹在同一目录。
+    * 在Ps将要改名字的图层编为一个组，选中这个组。
+    * 然后使用jsx脚本（将jsx脚本直接拖进ps或者在Ps的`文件-脚本`中使用）
+    * 等待一段时间，即可看到图层重命名了。之后把组给去除就行了。
 
 #### 使用Python
 
