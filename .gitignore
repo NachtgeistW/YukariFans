@@ -1,3 +1,5 @@
+# Site文件夹
+site/
 # Vscode的工作区文件
 *.code-workspace
 
