@@ -15,21 +15,22 @@ tags:
 
 #### 根本原因
 
-在使用 *日语环境的软件* 时，经常会遇到 **乱码** 问题，有时候甚至需要转区。其原因就在于，日语环境的Windows采用[Shift-JIS](https://en.wikipedia.org/wiki/Shift_JIS)编码，而我们平时用的中文版Windows是[GBK](https://en.wikipedia.org/wiki/GBK_(character_encoding))编码，俩者 **编码不统一** 导致解码出错。一个简单的解决方案是更改Windows系统 **“非Unicode程序的语言中所使用的当前语言”** 选项，但这样会导致一部分中文程序无法运行，所以并不推荐。
+在使用 *日语环境的软件* 时，经常会遇到 **乱码** 问题，有时候甚至需要转区。其原因就在于，日语环境的Windows采用[Shift-JIS](https://en.wikipedia.org/wiki/Shift_JIS){target=_blank}编码，而我们平时用的中文版Windows是[GBK](https://en.wikipedia.org/wiki/GBK_(character_encoding)){target=_blank}编码，俩者 **编码不统一** 导致解码出错。
+<!--一个简单的解决方案是更改Windows系统 **“非Unicode程序的语言中所使用的当前语言”** 选项，但这样会导致一部分中文程序无法运行，所以并不推荐。-->
 
 ??? question "为什么解压文件时选了日语编码，结果还是乱码了？" 
 
     解压时选择日语编码是非常明智的。只不过这个方法一般只能解决解压出来的 ***文件名乱码*** 问题，并不能解决程序内部字符乱码问题。
 
-#### “但是并不是所有立绘都会乱码呀......”
+#### “但不是所有立绘都会乱码......”
 
-是的，有的PSD立绘，即使是日本画师的作品、即使图层名是日语，但也没有乱码。这是因为较新的PSD文件（Photoshop 5.0）增加了Unicode图层名的功能（[Unicode layer name](https://www.adobe.com/devnet-apps/photoshop/fileformatashtml/)），而Unicode在所有电脑上都通用。
+是的，有的PSD立绘，即使是日本画师的作品、即使图层名是日语，但也没有乱码。这是因为较新的PSD文件（Photoshop 5.0）增加了Unicode图层名的功能（[Unicode layer name](https://www.adobe.com/devnet-apps/photoshop/fileformatashtml/){target=_blank}），而Unicode在所有电脑上都通用。
 
 ## **2. “怎么办呢？”**
 
 #### 在Photoshop中使用Jsx脚本
 
-[下载链接](https://share.weiyun.com/eGHLj6uj)
+[下载链接](https://share.weiyun.com/eGHLj6uj){target=_blank}
 
 !!! note "原理"
 
@@ -44,7 +45,7 @@ tags:
 
 #### 使用Python
 
-也可以使用Python的[psd-tools](https://psd-tools.readthedocs.io/en/latest/)来更改PSD图层名。使用`pip install psd-tools`安装[psd-tools](https://psd-tools.readthedocs.io/en/latest/)。
+也可以使用Python的[psd-tools](https://psd-tools.readthedocs.io/en/latest/){target=_blank}来更改PSD图层名。使用`pip install psd-tools`安装[psd-tools](https://psd-tools.readthedocs.io/en/latest/){target=_blank}。
 
 示例一：
 ```python

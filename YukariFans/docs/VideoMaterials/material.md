@@ -26,7 +26,7 @@ tags:
 
 ## **角色立绘**
 
-[ニコニコ静画](https://seiga.nicovideo.jp)上有几乎所有的角色立绘 <strike>去这里就对了</strike>。有些作者也会在<ruby>[Fanbox](https://www.fanbox.cc/)<rt>饭盒</rt></ruby>上公开立绘。如果立绘 *年代久远*，那么可能用Photoshop打开时图层名会 **乱码**，但在AviUtl的PSDToolKit中能正常显示。关于修复Photoshop图层名乱码请参考[[Photoshop修复|Photoshop图层名乱码修复]]。
+[ニコニコ静画](https://seiga.nicovideo.jp){target=_blank}上有几乎所有的角色立绘 <strike>去这里就对了</strike>。有些作者也会在<ruby>[Fanbox](https://www.fanbox.cc/){target=_blank}<rt>饭盒</rt></ruby>上公开立绘。如果立绘 *年代久远*，那么可能用Photoshop打开时图层名会 **乱码**，但在AviUtl的PSDToolKit中能正常显示。关于修复Photoshop图层名乱码请参考[[Photoshop修复|Photoshop图层名乱码修复]]。
 
 !!! note "立绘的使用限制"
 
@@ -36,18 +36,18 @@ tags:
 
 - **からい**
 
-    <ruby>[からい](https://seiga.nicovideo.jp/user/illust/12960693)<rt><strike>平鱼</strike></rt></ruby>さん：
+    <ruby>[からい](https://seiga.nicovideo.jp/user/illust/12960693){target=_blank}<rt><strike>平鱼</strike></rt></ruby>さん：
 
 !!! todo "施工中..."
 
 ## **各类音效**
 
-- [効果音ラボ](https://soundeffect-lab.info/): 全免费、**可商用** 的音效网站。
+- [効果音ラボ](https://soundeffect-lab.info/){target=_blank}: 全免费、**可商用** 的音效网站。
 
 !!! todo "施工中..."
 
 ## **图片素材**
 
-- [いらすとや](https://www.irasutoya.com/): 非常有名且常见的图片素材，很有自己特点。虽然有一定限制但基本可以免费商用。
+- [いらすとや](https://www.irasutoya.com/){target=_blank}: 非常有名且常见的图片素材，很有自己特点。虽然有一定限制但基本可以免费商用。
 
 !!! todo "施工中..."
