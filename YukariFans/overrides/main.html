@@ -5,3 +5,13 @@
 {% block announce %}
 Hello World !
 {% endblock %}
+
+{% block extrahead %}
+  <!-- 不缓存 -->
+  <!-- http 1.0 -->
+  <meta http-equiv="pragma" content="no-cache" />
+  <!-- http 1.1 -->
+  <meta http-equiv="content-type" content="no-cache, must-revalidate" />
+  <!-- http 1.0 -->
+  <meta http-equiv="expires" content="Wed, 26 Feb 1997 08:21:57 GMT" />
+{% endblock %}
