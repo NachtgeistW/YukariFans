@@ -16,6 +16,21 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://guanyujie.gitee.io/yukarifans/BasicInfo/basic-info/</loc>
+         <lastmod>2022-06-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://guanyujie.gitee.io/yukarifans/BasicInfo/characters/</loc>
+         <lastmod>2022-06-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://guanyujie.gitee.io/yukarifans/BasicInfo/softwares/</loc>
+         <lastmod>2022-06-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://guanyujie.gitee.io/yukarifans/Help/1-%E6%96%87%E6%A1%A3%E7%BB%93%E6%9E%84%E8%AF%B4%E6%98%8E/</loc>
          <lastmod>2022-06-12</lastmod>
          <changefreq>daily</changefreq>
@@ -26,7 +41,7 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://guanyujie.gitee.io/yukarifans/Techniques/ps_encoding/</loc>
+         <loc>https://guanyujie.gitee.io/yukarifans/Techniques/ps-encoding/</loc>
          <lastmod>2022-06-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
