@@ -2,32 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://guanyujie.gitee.io/yukarifans/</loc>
-         <lastmod>2022-06-11</lastmod>
+         <lastmod>2022-06-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://guanyujie.gitee.io/yukarifans/blogs/</loc>
-         <lastmod>2022-06-11</lastmod>
+         <lastmod>2022-06-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://guanyujie.gitee.io/yukarifans/tags/</loc>
-         <lastmod>2022-06-11</lastmod>
+         <lastmod>2022-06-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://guanyujie.gitee.io/yukarifans/Help/1-%E6%96%87%E6%A1%A3%E7%BB%93%E6%9E%84%E8%AF%B4%E6%98%8E/</loc>
-         <lastmod>2022-06-11</lastmod>
+         <lastmod>2022-06-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://guanyujie.gitee.io/yukarifans/Help/2-%E6%8F%92%E4%BB%B6%E8%AF%B4%E6%98%8E/</loc>
-         <lastmod>2022-06-11</lastmod>
+         <lastmod>2022-06-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://guanyujie.gitee.io/yukarifans/VideoMaterials/material/</loc>
+         <lastmod>2022-06-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://guanyujie.gitee.io/yukarifans/tags/</loc>
-         <lastmod>2022-06-11</lastmod>
+         <lastmod>2022-06-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>

@@ -40,8 +40,6 @@ markdown_extensions:
       linenums: true #显示行号
       linenums_style: pymdownx-inline #三种styple: pymdownx-inline/inline/table
       anchor_linenums: true
-  #键盘组合图标生成 eg.++alt+f4+1++
-  - pymdownx.keys
   #支持分组视图。代码块：=== "C++" === "C" 其他内容 === "A" ==="B"
   - pymdownx.tabbed:
       alternate_style: true
@@ -51,6 +49,13 @@ markdown_extensions:
       emoji_generator: !!python/name:materialx.emoji.to_svg
   #支持脚注 [^1]:blablabla
   - footnotes
+  #参考https://squidfunk.github.io/mkdocs-material/reference/formatting/
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.keys  #键盘组合图标生成 eg.++alt+f4+1++
+
 
 extra_css:
   #自定义页面样式
