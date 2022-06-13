@@ -12,6 +12,7 @@ hide:
   - toc
 tags:
   - 主页
+comment: false
 ---
 
 # Welcome to YukariFans
