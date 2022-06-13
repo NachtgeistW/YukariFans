@@ -101,3 +101,7 @@ extra:
 
 site_name: YukariFans
 site_url: "https://guanyujie.gitee.io/yukarifans/"
+
+repo_url: https://gitee.com/guanyujie/YukariFans
+repo_name: 节雨竹/YukariFans_MkDocs
+edit_uri: https://gitee.com/guanyujie/YukariFans/tree/develop/YukariFans/docs
