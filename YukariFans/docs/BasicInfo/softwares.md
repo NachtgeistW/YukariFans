@@ -26,6 +26,8 @@ tags:
 
 ## **CeVIO**
 
+可以参考[CeVIO AI 用户指南中文版(非官方)](https://cevio-user-guide-unofficial.github.io/CeVIO-AI/)
+
 ## **VOICEVOX**
 
 ## **CoeFont**
