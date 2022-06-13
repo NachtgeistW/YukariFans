@@ -22,6 +22,8 @@ plugins:
       meta_time_format: '%Y-%m-%d %H:%M:%S' #解析格式, 会自动找到元数据time或date上的字符串
       time_format: '%Y年%m月%d日 %H时%M分' #输出格式
 markdown_extensions:
+  - toc:
+      toc_depth: 4 #目录仅收录前四级标题
   #对markdown的数学公式的解析
   - pymdownx.arithmatex:
       generic: true
