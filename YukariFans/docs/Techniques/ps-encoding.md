@@ -11,7 +11,7 @@ tags:
 
 # Photoshop图层乱码问题
 
-## **1. “为什么！？”**
+## ***1. “为什么！？”***
 
 #### 根本原因
 
@@ -22,11 +22,11 @@ tags:
 
     解压时选择日语编码是非常明智的。只不过这个方法一般只能解决解压出来的 ***文件名乱码*** 问题，并不能解决程序内部字符乱码问题。
 
-#### “但不是所有立绘都会乱码......”
+#### *“但不是所有立绘都会乱码......”*
 
 是的，有的PSD立绘，即使是日本画师的作品、即使图层名是日语，但也没有乱码。这是因为较新的PSD文件（Photoshop 5.0）增加了Unicode图层名的功能（[Unicode layer name](https://www.adobe.com/devnet-apps/photoshop/fileformatashtml/){target=_blank}），而Unicode在所有电脑上都通用。
 
-## **2. “怎么办呢？”**
+## ***2. “怎么办？”***
 
 #### 在Photoshop中使用Jsx脚本
 
@@ -46,6 +46,10 @@ tags:
 #### 使用Python
 
 也可以使用Python的[psd-tools](https://psd-tools.readthedocs.io/en/latest/){target=_blank}来更改PSD图层名。使用`pip install psd-tools`安装[psd-tools](https://psd-tools.readthedocs.io/en/latest/){target=_blank}。
+
+??? question "想想看：这两个示例会有什么不同？"
+
+    示例一中直接将Shift-JIS转换为GBK，乍一看似乎没有问题，而且代码很简洁。但是，***Shift-JIS中存在GBK中没有的字符***，比如ｴﾋﾞﾌﾗｲ这样半宽的假名。在转换这些字符时，示例一会 **报错**。而示例二直接使用Unicode，避免了这个问题。
 
 示例一：
 ```python
@@ -74,7 +78,3 @@ psd = PSDImage.open(filename, encoding="Shift-JIS")
 writeBlock(psd)
 psd.save(f'Unicode_{filename}', encoding="Shift-JIS")
 ```
-
-??? question "想想看：这两个示例会有什么不同？"
-
-    示例一中直接将Shift-JIS转换为GBK，乍一看似乎没有问题，而且代码很简洁。但是，***Shift-JIS中存在GBK中没有的字符***，比如ｴﾋﾞﾌﾗｲ这样半宽的假名。在转换这些字符时，示例一会 **报错**。而示例二直接使用Unicode，避免了这个问题。
