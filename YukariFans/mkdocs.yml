@@ -62,6 +62,7 @@ markdown_extensions:
 extra_css:
   #自定义页面样式
   - Assets/css/extra.css
+  - Assets/css/footer.css
 extra_javascript:
   #这个js可以自定义一些快捷键
   - Assets/javascripts/shortcuts.js
@@ -87,16 +88,6 @@ theme:
     # - navigation.instant #即时加载，点击内部链接后只加载改变的部分，与blog插件冲突
     # - navigation.indexes #章节名处现在也可以加上md文档了(与awesome-pages插件冲突,用section-index插件替换)
 extra:
-  social:
-    - icon: fontawesome/brands/bilibili
-      link: https://space.bilibili.com/37810014
-      name: 我的B站空间
-    - icon: fontawesome/brands/github
-      link: https://gitee.com/guanyujie
-      name: My Gitee
-    - icon: octicons/mail-24
-      link: mailto:<pipeyume@qq.com>
-      name: 我的邮箱pipeyume@qq.com
   generator: false
 
 site_name: YukariFans
