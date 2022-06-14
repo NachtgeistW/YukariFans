@@ -88,7 +88,7 @@ theme:
     # - navigation.instant #即时加载，点击内部链接后只加载改变的部分，与blog插件冲突
     # - navigation.indexes #章节名处现在也可以加上md文档了(与awesome-pages插件冲突,用section-index插件替换)
 extra:
-  generator: false
+  generator: true
 
 site_name: YukariFans
 site_url: "https://guanyujie.gitee.io/yukarifans/"
