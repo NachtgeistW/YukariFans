@@ -61,12 +61,12 @@ markdown_extensions:
 
 extra_css:
   #自定义页面样式
-  - html/css/extra.css
+  - Assets/css/extra.css
 extra_javascript:
   #这个js可以自定义一些快捷键
-  - html/javascripts/shortcuts.js
+  - Assets/javascripts/shortcuts.js
   #Mathjax依赖js
-  - html/javascripts/mathjax.js
+  - Assets/javascripts/mathjax.js
   - https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
 theme:
   name: "material"
